@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class EJERCICIO5 {
 
     //ATRIBUTOS
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] array; //Declaración
