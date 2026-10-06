@@ -10,7 +10,5 @@ public class EJERCICIO7 {
 
         resto = dni %23;
         System.out.println(array[resto]);
-
-
     }
 }
