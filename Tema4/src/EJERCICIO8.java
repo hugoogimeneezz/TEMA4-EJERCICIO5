@@ -9,7 +9,6 @@ class EJERCICIO8 {
             for (int j = 0; j < array[0].length; j++){
                 array[i][j] = 1 ;
             }
-
         }
         array[0][4] = 0;
         array[2][6] = 0;
