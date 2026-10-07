@@ -21,22 +21,25 @@ class EJERCICIO9 {
             }
             System.out.println();
         }
+        boolean ones = false;
         for(int fila = 0; fila < array.length; fila++){
-            cont1 = 0;
+            ones = true;
             for (int col = 0; col< array.length; col++){
-                if (array[fila][col] == 1) {
-                    cont1++;
+                if (array[fila][col] != 1) {
+                    ones = false;
+                    break;
                 }
             }
-            if (cont1 == array[0].length) {
+            if (ones) {
                 contFilas++;
             }
         }
         for (int col = 0; col < array[0].length; col++) {
-            cont1 = 0;
+            ones = true;
             for (int fila = 0; fila < array[0].length; fila++) {
                 if (array[fila][col] == 1) {
-                    cont1++;
+                    ones = false;
+                    break;
                 }
             }
             if (cont1 == 10) {
